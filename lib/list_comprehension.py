@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 def return_evens(num_list):
-    num_list = [ (n*2) for n in range(0,8)]
+    return [num for num in num_list if num % 2 == 0]
     
-    print (num_list)
 
 def make_exclamation(sentence_list):
-    pass
+   return [sentence + "!" for sentence in sentence_list]
